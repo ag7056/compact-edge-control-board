@@ -1,0 +1,11 @@
+*.bak
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+*.zip
+*.o
+*.elf
+*.bin
+build/
+out/
