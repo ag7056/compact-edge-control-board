@@ -1,0 +1,14 @@
+Reference,Part,Description,Qty,Notes
+J1,DC Jack,12V DC input connector,1,Main power input
+U1,Buck Regulator IC,12V to 5V switching regulator,1,Primary 5V rail
+U2,LDO Regulator,5V to 3.3V regulator,1,Logic rail
+U3,Microcontroller,MCU with I2C UART PWM GPIO,1,System controller
+U4,Temp Sensor,I2C digital temperature sensor,1,Board monitoring
+J2,Fan Header,4-pin PWM fan header,1,Cooling control
+D1,LED Green,Power LED,1,Power good status
+D2,LED Blue,Heartbeat LED,1,Firmware activity
+D3,LED Red,Fault LED,1,Fault indication
+R1-R10,Resistors,Assorted resistors,10,Pullups and current limiting
+C1-C12,Capacitors,Assorted capacitors,12,Decoupling and regulator support
+J3,UART Header,Debug interface,1,Development and bring-up
+J4,GPIO Header,Expansion header,1,Future integration
